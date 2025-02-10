@@ -157,7 +157,7 @@ function App() {
         <div className="max-w-7xl lg:ml-20 ml-4 px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center sm:ml-10 ">
-              <img src="https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22logo.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A42%3A25.077Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2Fede03161e2da49d8%2Flogo.png%3FExpires%3D1833770545%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DTeutU~sf62gjBH6OthznEX0kRRgdotvnfqDIiC9uB5WoCO6IoTITWx9PDBSipxbBXwvLlGU-9Wy92tjnvyOWTGaHINnvI9dS9zr80fmRVIpf0rdhT8NKaYqODJ6o4n3R4Jzj53SMYg~uzbNvhaqo~8~6EqSp1qqbcWrVRKnKWfxHoKd~IduexgO16PUbBINr02nccScixmPKh49DMsg0CcVwoh8RlduzKjG~cYBHdTBBQDoibx3o3FOBeCL5LbIpNFNlPLFKFbVeWp9j5Cs67sWl6z3PNZlXZRB8XN335ztumsD4CxGNZ-ea7qSLnKsSCmrivEa9BY0wX68vzXpbBA__%22%7D" className="h-10 w-10" alt="Logo" />
+              <img src="src/logo.png" className="h-10 w-10" alt="Logo" />
               <span className="ml-2 text-2xl font-bold text-white">SWAGATOM WORLD</span>
             </div>
 
@@ -214,7 +214,7 @@ function App() {
       <header className="relative h-screen">
         <div className="absolute inset-0">
           <img
-            src="assets/background/bg.jpg"
+            src="src/bg.jpg"
             alt="Summer camp hero"
             className="w-full h-full object-cover"
           />
@@ -319,7 +319,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22screenshot_1739162810669.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A46%3A47.715Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F9de7e2fdb89c4b7c%2Fscreenshot_1739162810669.png%3FExpires%3D1833770808%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DrRQV5bOLQQ8lHphifw~SrLriylJbnL4WN56~rZbczaDAXWy4Yev1Z0Jghvc8rmKGLw-4i4ZCQd9rNJRbZcanUeoMMF878SNwcnY~AcJpdTKmwsNqKzxoqanaEerC~935V08qHz~3UZ9W5LWBt5FDuZnfORoSPytyeOYCKo-yF8eKtlcrMAPFfhXbzUgCYC3a6M3hOqHoY52joMU5U-b-25blqqE8Z0Hz9dZnkbWwQ9BcgxnJ1VEp6cxWJBmgViGSrnXSoR1ycrX9yrKFVUPIDEPHf7y4T2mlRwm3Cgdke~FW1Q7dFVldcM6J0O9PnMyBhW7eNYwLnNQR6qkLTxuTxQ__%22%7D"
+                src="src/about.png"
                 alt="About us"
                 className="rounded-lg shadow-lg"
               />
