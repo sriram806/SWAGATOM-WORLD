@@ -110,7 +110,7 @@ function App() {
     },
   ];
   {/*Blog End */ }
-  {/*Gallery*/ }
+  {/*Gallery*/}
   const galleryImages = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMMATOeBrQ7qKnCaj5U9KtKSqsCA4xX0uj0Q&s",
     "https://images.unsplash.com/photo-1496469888073-80de7e952517",
