@@ -23,27 +23,27 @@ function App() {
   const allPrograms = [
     {
       title: "Culinary Workshop",
-      image: "assets/navarasa/Culinary Workshop.jpg",
+      image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Culinary%20Workshop.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A44%3A35.970Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F5fb275b860be41d3%2FCulinary%2520Workshop.jpg%3FExpires%3D1833770676%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DOTHC3wdSb0JS2Z8kTkG3n6ZDcKUl5MS51H2bbyth5D2LvTyAW-kDi5ltCMKCUWZtCgiQSAkmGRMMgsx0dwkZ5zgIZoq4M7usbEFwnKBb1IcATDYFQcHqAXwPXZezD2UPvx5rnNLSQmdaqhVZUi-tPqg2gkD796RPDWEB4do1mZ-cePGekIKqq8cz0MacrXNys9bC6i8mr4q~dYGPG0327NjdKv9aLZB1szyyGyDszlAZJlR1QwbQqzd8OnvsLIj7SAJepJilc8sKxGn37fUB67V7narQqT9sBm86aN2bhWJJEUa6w8If3UlnWeXPvrAkQRpvTvvc8jq0eSMu~bmSOA__%22%7D",
       description: "A culinary workshop is a hands-on cooking class where participants learn new techniques, ingredients, and cuisines from expert chefs."
     },
     {
       title: "Educational Trip",
-      image: "assets/navarasa/Educational Tri.jpg",
+      image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Educational%20Tri.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A44%3A35.972Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2Fd4a9ce4e79c84a2d%2FEducational%2520Tri.jpg%3FExpires%3D1833770676%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DMykxpVPF~gLFZaXP3tGcWE48C1nDXKIBCDIbugRDcitFLh~hCkrL3NccVhO3g-mYM7RBqjRU1LjHVh-H2GHkvIN5~keMlVMWAZjsD8NRI~Y1hApfBCUOKqzFzrbrtfzVoqGIyHTdrq5Kfy2ZqO54kKbkRwpD~tA0z6n2~xNV6F~h16eSq5YGbikE7Ob1EkHmpbOnVLjm3MySMXeK-Mvre~mGF6uVaVdRM8dLl6s-5IfS7p4~GxcXbPtN00weffWjlRWAJ9HEWtqxQwPTBzNe5N5qQQNRAbguYciP~brPtgzsj1oQJyQ-AR9ntnezYeuYn4av~eOH6HkAxyDwsU~W4A__%22%7D",
       description: "An educational trip is a learning experience outside the classroom, where students explore new places, cultures, and concepts, making learning fun and interactive."
     },
     {
       title: "Pottery",
-      image: "assets/navarasa/Pottery .jpg",
+      image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Pottery%20.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A44%3A35.964Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F96fcbd7f97ed4933%2FPottery%2520.jpg%3FExpires%3D1833770676%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DtIhkIfoDatavggrcxNTNIqVEy40iFmGFz8fPF6IUrAUZu0za93zNzEXZKBXoAhV9u6OHz-0UB4DDo5J47EvEeBTjlemNAiPXCpWlTQmk5HbO3oTn5JA~qmzmemgFwfd6H82ruC0kq63e5Nt5j-GX28qDX0~OZAgipTZxQ6Aftd13dDnoO~2iMeopqs~XFtqWVILL0nrgehxSUyNZZWeLGHThbw1VbD5GGNWtSOv8hkQ4I~i8Q7C1ukOiLJn~v1CNCtKsIhx3VphKmFbvJ2Z-XhuVa3X9mJSRNSEC8gWLzVw4yJh9SVZCGWuuTvcrIk50ZKF0JX~XJc4xnXTQcYuftQ__%22%7D",
       description: "Pottery is the art of creating objects from clay, shaping, and firing them to create functional or decorative pieces, such as bowls, vases, and sculptures."
     },
     {
       title: "Shadow puppetry",
-      image: "assets/navarasa/shadow.jpg",
+      image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22shadow.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A44%3A35.966Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F4a55d2745d1146c6%2Fshadow.jpg%3FExpires%3D1833770676%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DK14JzClV3Cv0GsypDYtprUOQOsW41sPZL1Zfwng~TbYjctjqXjcn7uf5BAU3pU5y7d5cQ50dvv1o6KwTxfs2ZHtXbPrCtn-BORR6kjmlv7vRyqdvgM0sqR5Z-K18v80YkS45Lol9LgxVPMfbqkdADhfU3nL9o21qXK2Shi0oxl74kQuyzyJOMPrsjwKkpkNaAsfn9DEUQLfuynA-4bpBFT24O~gDZLh3VyHvH95F~EbjcqA~VOdOQcKVHKmGHmsRVG4s29Nq~gEEzKXdQrQE2JTerld-YFE5iH~ffpLg3JgLdc9S095V9Px7nCQ~KttU3Vb~XNBzgmzgU3DRSaoeWg__%22%7D",
       description: "Shadow puppetry is an ancient storytelling art form using silhouettes of objects, hands, or puppets to create images on a screen, often accompanied by music, voiceovers, or narration."
     },
     {
       title: "Yoga",
-      image: "assets/navarasa/yoga.webp",
+      image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22yoga.webp%22%2C%22type%22%3A%22image%2Fwebp%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A44%3A35.969Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F4732be2305ca4b15%2Fyoga.webp%3FExpires%3D1833770676%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3D2B46tH0yZdX3~7H1PFMH7GrfxL05Io0-herJoHXLeikyqmovE6mBvTK2CeaCwtElxA0YiS-18sDHknlOWVzh6anS8db5EyPxpSD7dTNHhu5HZfnjKQ~Puhlw0ks5JDe5AfE6MYJC~I8BMI4eRpdGBeeVlFuZANO0Zw-Ydsx23a~q4kiQFs~V0PPkBYpICIH9TwVjgbIHXTn0Zi8PdDqs8xvJbhIdo6brZIxfuj8xl3lpb-bb8tds-zKXwKDLbF1uZHzI105AFjTqNMgndfRMbp7AEpWmFvTUHc52-Mur9Fm13DwX2y4bBvcR-xhSAnzslI-1eE3pWU~Mhrx~QntEbA__%22%7D",
       description: "Yoga is a physical, mental, and spiritual practice originating from India, combining postures (asanas), breathing techniques (pranayama), and meditation to promote relaxation, flexibility, balance, and overall well-being."
     }
   ];
@@ -157,7 +157,7 @@ function App() {
         <div className="max-w-7xl lg:ml-20 ml-4 px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center sm:ml-10 ">
-              <img src="assets/logo/logo.png" className="h-10 w-10" alt="Logo" />
+              <img src="https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22logo.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A42%3A25.077Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2Fede03161e2da49d8%2Flogo.png%3FExpires%3D1833770545%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DTeutU~sf62gjBH6OthznEX0kRRgdotvnfqDIiC9uB5WoCO6IoTITWx9PDBSipxbBXwvLlGU-9Wy92tjnvyOWTGaHINnvI9dS9zr80fmRVIpf0rdhT8NKaYqODJ6o4n3R4Jzj53SMYg~uzbNvhaqo~8~6EqSp1qqbcWrVRKnKWfxHoKd~IduexgO16PUbBINr02nccScixmPKh49DMsg0CcVwoh8RlduzKjG~cYBHdTBBQDoibx3o3FOBeCL5LbIpNFNlPLFKFbVeWp9j5Cs67sWl6z3PNZlXZRB8XN335ztumsD4CxGNZ-ea7qSLnKsSCmrivEa9BY0wX68vzXpbBA__%22%7D" className="h-10 w-10" alt="Logo" />
               <span className="ml-2 text-2xl font-bold text-white">SWAGATOM WORLD</span>
             </div>
 
@@ -319,7 +319,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="assets/about/image.png"
+                src="https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22screenshot_1739162810669.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A46%3A47.715Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F9de7e2fdb89c4b7c%2Fscreenshot_1739162810669.png%3FExpires%3D1833770808%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DrRQV5bOLQQ8lHphifw~SrLriylJbnL4WN56~rZbczaDAXWy4Yev1Z0Jghvc8rmKGLw-4i4ZCQd9rNJRbZcanUeoMMF878SNwcnY~AcJpdTKmwsNqKzxoqanaEerC~935V08qHz~3UZ9W5LWBt5FDuZnfORoSPytyeOYCKo-yF8eKtlcrMAPFfhXbzUgCYC3a6M3hOqHoY52joMU5U-b-25blqqE8Z0Hz9dZnkbWwQ9BcgxnJ1VEp6cxWJBmgViGSrnXSoR1ycrX9yrKFVUPIDEPHf7y4T2mlRwm3Cgdke~FW1Q7dFVldcM6J0O9PnMyBhW7eNYwLnNQR6qkLTxuTxQ__%22%7D"
                 alt="About us"
                 className="rounded-lg shadow-lg"
               />
