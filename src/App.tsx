@@ -23,27 +23,27 @@ function App() {
   const allPrograms = [
     {
       title: "Culinary Workshop",
-      image: "https://www.imghippo.com/i/vtgs8292Rs.jpg",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeHqI2CVTYQ6X8eVXv1_kKMzJtfpMWIE634E6oUVJ0WyjOBuazUhjTXTZI4IZ2ZsDtqjs&usqp=CAU",
       description: "A culinary workshop is a hands-on cooking class where participants learn new techniques, ingredients, and cuisines from expert chefs."
     },
     {
       title: "Educational Trips",
-      image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Educational%20Tri.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A44%3A35.972Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2Fd4a9ce4e79c84a2d%2FEducational%2520Tri.jpg%3FExpires%3D1833770676%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DMykxpVPF~gLFZaXP3tGcWE48C1nDXKIBCDIbugRDcitFLh~hCkrL3NccVhO3g-mYM7RBqjRU1LjHVh-H2GHkvIN5~keMlVMWAZjsD8NRI~Y1hApfBCUOKqzFzrbrtfzVoqGIyHTdrq5Kfy2ZqO54kKbkRwpD~tA0z6n2~xNV6F~h16eSq5YGbikE7Ob1EkHmpbOnVLjm3MySMXeK-Mvre~mGF6uVaVdRM8dLl6s-5IfS7p4~GxcXbPtN00weffWjlRWAJ9HEWtqxQwPTBzNe5N5qQQNRAbguYciP~brPtgzsj1oQJyQ-AR9ntnezYeuYn4av~eOH6HkAxyDwsU~W4A__%22%7D",
+      image: "https://www.educationalschooltrip.com/wp-content/uploads/School-trip-planning.jpg",
       description: "An educational trip is a learning experience outside the classroom, where students explore new places, cultures, and concepts, making learning fun and interactive."
     },
     {
       title: "Pottery",
-      image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Pottery%20.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A44%3A35.964Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F96fcbd7f97ed4933%2FPottery%2520.jpg%3FExpires%3D1833770676%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DtIhkIfoDatavggrcxNTNIqVEy40iFmGFz8fPF6IUrAUZu0za93zNzEXZKBXoAhV9u6OHz-0UB4DDo5J47EvEeBTjlemNAiPXCpWlTQmk5HbO3oTn5JA~qmzmemgFwfd6H82ruC0kq63e5Nt5j-GX28qDX0~OZAgipTZxQ6Aftd13dDnoO~2iMeopqs~XFtqWVILL0nrgehxSUyNZZWeLGHThbw1VbD5GGNWtSOv8hkQ4I~i8Q7C1ukOiLJn~v1CNCtKsIhx3VphKmFbvJ2Z-XhuVa3X9mJSRNSEC8gWLzVw4yJh9SVZCGWuuTvcrIk50ZKF0JX~XJc4xnXTQcYuftQ__%22%7D",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFPBTT1lOL_gRt7sgMBf2CFq1huYn4DqVL3g&s",
       description: "Pottery is the art of creating objects from clay, shaping, and firing them to create functional or decorative pieces, such as bowls, vases, and sculptures."
     },
     {
       title: "Shadow puppetry",
-      image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22shadow.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A44%3A35.966Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F4a55d2745d1146c6%2Fshadow.jpg%3FExpires%3D1833770676%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DK14JzClV3Cv0GsypDYtprUOQOsW41sPZL1Zfwng~TbYjctjqXjcn7uf5BAU3pU5y7d5cQ50dvv1o6KwTxfs2ZHtXbPrCtn-BORR6kjmlv7vRyqdvgM0sqR5Z-K18v80YkS45Lol9LgxVPMfbqkdADhfU3nL9o21qXK2Shi0oxl74kQuyzyJOMPrsjwKkpkNaAsfn9DEUQLfuynA-4bpBFT24O~gDZLh3VyHvH95F~EbjcqA~VOdOQcKVHKmGHmsRVG4s29Nq~gEEzKXdQrQE2JTerld-YFE5iH~ffpLg3JgLdc9S095V9Px7nCQ~KttU3Vb~XNBzgmzgU3DRSaoeWg__%22%7D",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5PWet-x8nqQ5zRjfCqF4tpRHMfLbgamF7WQ&s",
       description: "Shadow puppetry is an ancient storytelling art form using silhouettes of objects, hands, or puppets to create images on a screen, often accompanied by music, voiceovers, or narration."
     },
     {
       title: "Yoga",
-      image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22yoga.webp%22%2C%22type%22%3A%22image%2Fwebp%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A44%3A35.969Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F4732be2305ca4b15%2Fyoga.webp%3FExpires%3D1833770676%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3D2B46tH0yZdX3~7H1PFMH7GrfxL05Io0-herJoHXLeikyqmovE6mBvTK2CeaCwtElxA0YiS-18sDHknlOWVzh6anS8db5EyPxpSD7dTNHhu5HZfnjKQ~Puhlw0ks5JDe5AfE6MYJC~I8BMI4eRpdGBeeVlFuZANO0Zw-Ydsx23a~q4kiQFs~V0PPkBYpICIH9TwVjgbIHXTn0Zi8PdDqs8xvJbhIdo6brZIxfuj8xl3lpb-bb8tds-zKXwKDLbF1uZHzI105AFjTqNMgndfRMbp7AEpWmFvTUHc52-Mur9Fm13DwX2y4bBvcR-xhSAnzslI-1eE3pWU~Mhrx~QntEbA__%22%7D",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXzHOwx4uGsjEAdEwjRkP5gSQll2KxOMKmQw&s",
       description: "Yoga is a physical, mental, and spiritual practice originating from India, combining postures (asanas), breathing techniques (pranayama), and meditation to promote relaxation, flexibility, balance, and overall well-being."
     }
   ];
@@ -112,9 +112,9 @@ function App() {
   {/*Blog End */ }
   {/*Gallery*/ }
   const galleryImages = [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMMATOeBrQ7qKnCaj5U9KtKSqsCA4xX0uj0Q&s",
     "https://images.unsplash.com/photo-1496469888073-80de7e952517",
     "https://images.unsplash.com/photo-1486673748761-a8d18475c757",
-    "https://images.unsplash.com/photo-1445521543047-a000602c6310",
     "https://images.unsplash.com/photo-1546058256-47154de4046c"
   ];
 
