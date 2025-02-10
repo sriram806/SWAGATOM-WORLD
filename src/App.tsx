@@ -91,7 +91,7 @@ function App() {
     {
       title: "Preparing Your Child for Summer Camp",
       date: "March 5, 2024",
-      image: "https://images.unsplash.com/photo-1445521543047-a000602c6310?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1503785640985-f62e3aeee448?auto=format&fit=crop&q=80"
     },
     {
       title: "10 Essential Skills Kids Learn at Camp",
@@ -106,7 +106,7 @@ function App() {
     {
       title: "Preparing Your Child for Summer Camp",
       date: "March 5, 2024",
-      image: "https://images.unsplash.com/photo-1445521543047-a000602c6310?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1503785640985-f62e3aeee448?auto=format&fit=crop&q=80"
     },
   ];
   {/*Blog End */ }
@@ -123,7 +123,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % galleryImages.length);
-    }, 3000);
+    }, 1500);
     return () => clearInterval(interval);
   }, []);
   {/*Gallery End */ }
@@ -157,7 +157,7 @@ function App() {
         <div className="max-w-7xl lg:ml-20 ml-4 px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center sm:ml-10 ">
-              <img src="src/logo.png" className="h-10 w-10" alt="Logo" />
+              <img src="https://media-hosting.imagekit.io//ede03161e2da49d8/logo.png?Expires=1833770545&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=TeutU~sf62gjBH6OthznEX0kRRgdotvnfqDIiC9uB5WoCO6IoTITWx9PDBSipxbBXwvLlGU-9Wy92tjnvyOWTGaHINnvI9dS9zr80fmRVIpf0rdhT8NKaYqODJ6o4n3R4Jzj53SMYg~uzbNvhaqo~8~6EqSp1qqbcWrVRKnKWfxHoKd~IduexgO16PUbBINr02nccScixmPKh49DMsg0CcVwoh8RlduzKjG~cYBHdTBBQDoibx3o3FOBeCL5LbIpNFNlPLFKFbVeWp9j5Cs67sWl6z3PNZlXZRB8XN335ztumsD4CxGNZ-ea7qSLnKsSCmrivEa9BY0wX68vzXpbBA__" className="h-10 w-10" alt="Logo" />
               <span className="ml-2 text-2xl font-bold text-white">SWAGATOM WORLD</span>
             </div>
 
@@ -214,7 +214,7 @@ function App() {
       <header className="relative h-screen">
         <div className="absolute inset-0">
           <img
-            src="src/bg.jpg"
+            src="https://media-hosting.imagekit.io//9270575bd5b14e90/bg.jpg?Expires=1833779484&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=P6bdFeJdOslj6DEKpByJManmzqifeD0wHxeTBiJSrFWQ3TEHxfSRMWcVzG49kWcyQrduBKBan6xXt-F5Zp3T5syca33-lWLF5ssmO6kH9WzrebYnnU6LzDgdoljR6jpNHqJS1jXOERW7lwPPKVXhsUGHtiS~VRjm-l~OJTyKTag5jZwGhcVYMGKP0DsrhRLT8SI8xVhWjzUOFy3xxKQdbxuDL3gkbhZnICEbFfDvVtsa~EVuQpjCIVQBvGcBZ5l5L-9L6yhCt~XsZjJ8Sp~F9xvzQU3110z5e1cIO1T0ADv~vX3iXHRJRS0I4KNZsEqvVxbrr4NS~c6QWzchm2WkgA__"
             alt="Summer camp hero"
             className="w-full h-full object-cover"
           />
@@ -319,7 +319,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="src/about.png"
+                src="https://media-hosting.imagekit.io//9de7e2fdb89c4b7c/screenshot_1739162810669.png?Expires=1833770808&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=rRQV5bOLQQ8lHphifw~SrLriylJbnL4WN56~rZbczaDAXWy4Yev1Z0Jghvc8rmKGLw-4i4ZCQd9rNJRbZcanUeoMMF878SNwcnY~AcJpdTKmwsNqKzxoqanaEerC~935V08qHz~3UZ9W5LWBt5FDuZnfORoSPytyeOYCKo-yF8eKtlcrMAPFfhXbzUgCYC3a6M3hOqHoY52joMU5U-b-25blqqE8Z0Hz9dZnkbWwQ9BcgxnJ1VEp6cxWJBmgViGSrnXSoR1ycrX9yrKFVUPIDEPHf7y4T2mlRwm3Cgdke~FW1Q7dFVldcM6J0O9PnMyBhW7eNYwLnNQR6qkLTxuTxQ__"
                 alt="About us"
                 className="rounded-lg shadow-lg"
               />
