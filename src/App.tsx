@@ -23,7 +23,7 @@ function App() {
   const allPrograms = [
     {
       title: "Culinary Workshop",
-      image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Culinary%20Workshop.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A44%3A35.970Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F5fb275b860be41d3%2FCulinary%2520Workshop.jpg%3FExpires%3D1833770676%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DOTHC3wdSb0JS2Z8kTkG3n6ZDcKUl5MS51H2bbyth5D2LvTyAW-kDi5ltCMKCUWZtCgiQSAkmGRMMgsx0dwkZ5zgIZoq4M7usbEFwnKBb1IcATDYFQcHqAXwPXZezD2UPvx5rnNLSQmdaqhVZUi-tPqg2gkD796RPDWEB4do1mZ-cePGekIKqq8cz0MacrXNys9bC6i8mr4q~dYGPG0327NjdKv9aLZB1szyyGyDszlAZJlR1QwbQqzd8OnvsLIj7SAJepJilc8sKxGn37fUB67V7narQqT9sBm86aN2bhWJJEUa6w8If3UlnWeXPvrAkQRpvTvvc8jq0eSMu~bmSOA__%22%7D",
+      image: "https://www.imghippo.com/i/vtgs8292Rs.jpg",
       description: "A culinary workshop is a hands-on cooking class where participants learn new techniques, ingredients, and cuisines from expert chefs."
     },
     {
