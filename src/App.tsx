@@ -27,7 +27,7 @@ function App() {
       description: "A culinary workshop is a hands-on cooking class where participants learn new techniques, ingredients, and cuisines from expert chefs."
     },
     {
-      title: "Educational Trip",
+      title: "Educational Trips",
       image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Educational%20Tri.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-02-10T04%3A44%3A35.972Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2Fd4a9ce4e79c84a2d%2FEducational%2520Tri.jpg%3FExpires%3D1833770676%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DMykxpVPF~gLFZaXP3tGcWE48C1nDXKIBCDIbugRDcitFLh~hCkrL3NccVhO3g-mYM7RBqjRU1LjHVh-H2GHkvIN5~keMlVMWAZjsD8NRI~Y1hApfBCUOKqzFzrbrtfzVoqGIyHTdrq5Kfy2ZqO54kKbkRwpD~tA0z6n2~xNV6F~h16eSq5YGbikE7Ob1EkHmpbOnVLjm3MySMXeK-Mvre~mGF6uVaVdRM8dLl6s-5IfS7p4~GxcXbPtN00weffWjlRWAJ9HEWtqxQwPTBzNe5N5qQQNRAbguYciP~brPtgzsj1oQJyQ-AR9ntnezYeuYn4av~eOH6HkAxyDwsU~W4A__%22%7D",
       description: "An educational trip is a learning experience outside the classroom, where students explore new places, cultures, and concepts, making learning fun and interactive."
     },
