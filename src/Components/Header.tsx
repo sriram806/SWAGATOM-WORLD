@@ -10,7 +10,7 @@ function Header() {
             </div>
             <div className="relative max-w-7xl mx-auto pt-32 px-4 sm:px-6 lg:px-8 text-center h-full flex flex-col justify-center slide-up">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Welcome to Swagatom World LLP</h1>
-                <p className="text-xl text-gray-200 mb-8">Discover a new way of learning that combines fun, creativity, and practical skills with our Navarasa-9</p>
+                <p className="text-xl text-gray-200 mb-7">Discover a new way of learning that combines fun, creativity, and practical skills with our Navarasa-9</p>
                 <a href="#programs" className="text-white hover:text-yellow-500 transition"><button className="bg-yellow-500 text-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-400 transition mx-auto">Know More </button></a>
             </div>
         </header>
