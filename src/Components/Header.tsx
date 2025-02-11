@@ -3,7 +3,7 @@ function Header() {
         <header className="relative h-screen">
             <div className="absolute inset-0">
             <div className="flex items-center sm:ml-10 ">
-              <img src="https://media-hosting.imagekit.io//ede03161e2da49d8/logo.png?Expires=1833770545&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=TeutU~sf62gjBH6OthznEX0kRRgdotvnfqDIiC9uB5WoCO6IoTITWx9PDBSipxbBXwvLlGU-9Wy92tjnvyOWTGaHINnvI9dS9zr80fmRVIpf0rdhT8NKaYqODJ6o4n3R4Jzj53SMYg~uzbNvhaqo~8~6EqSp1qqbcWrVRKnKWfxHoKd~IduexgO16PUbBINr02nccScixmPKh49DMsg0CcVwoh8RlduzKjG~cYBHdTBBQDoibx3o3FOBeCL5LbIpNFNlPLFKFbVeWp9j5Cs67sWl6z3PNZlXZRB8XN335ztumsD4CxGNZ-ea7qSLnKsSCmrivEa9BY0wX68vzXpbBA__" className="h-10 w-10" alt="Logo" />
+              <img src="https://media-hosting.imagekit.io//9270575bd5b14e90/bg.jpg?Expires=1833779484&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=P6bdFeJdOslj6DEKpByJManmzqifeD0wHxeTBiJSrFWQ3TEHxfSRMWcVzG49kWcyQrduBKBan6xXt-F5Zp3T5syca33-lWLF5ssmO6kH9WzrebYnnU6LzDgdoljR6jpNHqJS1jXOERW7lwPPKVXhsUGHtiS~VRjm-l~OJTyKTag5jZwGhcVYMGKP0DsrhRLT8SI8xVhWjzUOFy3xxKQdbxuDL3gkbhZnICEbFfDvVtsa~EVuQpjCIVQBvGcBZ5l5L-9L6yhCt~XsZjJ8Sp~F9xvzQU3110z5e1cIO1T0ADv~vX3iXHRJRS0I4KNZsEqvVxbrr4NS~c6QWzchm2WkgA__" className="h-10 w-10" alt="Background" />
               <span className="ml-2 text-2xl font-bold text-white">SWAGATOM WORLD</span>
             </div>
                 <div className="absolute inset-0 bg-black bg-opacity-50" />
