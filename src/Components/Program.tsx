@@ -1,66 +1,92 @@
-import { Sun } from 'lucide-react';
+import { Sun } from "lucide-react";
+import { motion } from "framer-motion";
 
 function Program() {
     return (
-        <section id="programs" className="animate-on-scroll py-20 bg-transperent mt-20 mb-10">
+        <section id="programs" className="py-20 bg-transparent mt-20 mb-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <center className="text-3xl font-bold text-white mb-10">Navarasa-9 Experiential Learnings</center>
-                        <p className="text-gray-400 mt-5 mb-8">Navarasa-9 Experiential Learnings is a curated program offering 9 unique,
-                            hands-on experiences that foster creativity, critical thinking, and practical skills in students.
-                            These experiences, such as shadow puppetry, pottery making, and yoga, are designed to enhance students'
-                            emotional intelligence, creativity, and overall well-being.
+                    {/* Left Side - Program Description */}
+                    <motion.div
+                        initial={{ opacity: 0, x: -50 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.6, ease: "easeOut" }}
+                    >
+                        <h2 className="text-4xl font-bold text-center text-white mb-10">
+                            Navarasa-9 Experiential Learnings
+                        </h2>
+                        <p className="text-gray-300 leading-relaxed mb-8">
+                            Navarasa-9 is a curated program offering <b>9 unique, hands-on experiences</b> that foster creativity,
+                            critical thinking, and practical skills. These immersive activities—like <b>shadow puppetry, pottery, and yoga</b>—enhance
+                            emotional intelligence, innovation, and well-being.
                         </p>
-                        <div className="space-y-10">
-                            <div className="flex items-center ">
-                                <Sun className="w-6 h-6 text-yellow-500 mr-3" />
-                                <span className="text-gray-600">Innovation: Pioneering creative and tech-driven learning experiences.</span>
-                            </div>
-                            <div className="flex items-center ">
-                                <Sun className="w-6 h-6 text-yellow-500 mr-3" />
-                                <span className="text-gray-600">Inclusivity: Tailoring programs for both rural and urban communities.</span>
-                            </div>
-                            <div className="flex items-center ">
-                                <Sun className="w-6 h-6 text-yellow-500 mr-3" />
-                                <span className="text-gray-600">Excellence: Delivering high-quality workshops with measurable outcomes.</span>
-                            </div>
-                            <div className="flex items-center ">
-                                <Sun className="w-6 h-6 text-yellow-500 mr-3" />
-                                <span className="text-gray-600">Sustainability: Promoting eco-friendly and socially responsible practices.</span>
-                            </div>
-                            <div className="flex items-center ">
-                                <Sun className="w-6 h-6 text-yellow-500 mr-3" />
-                                <span className="text-gray-600">Recognition: Empowering exceptional talent to shine on global stages.</span>
-                            </div>
+                        <div className="space-y-6">
+                            {[
+                                "Innovation: Pioneering creative and tech-driven learning experiences.",
+                                "Inclusivity: Tailoring programs for both rural and urban communities.",
+                                "Excellence: Delivering high-quality workshops with measurable outcomes.",
+                                "Sustainability: Promoting eco-friendly and socially responsible practices.",
+                                "Recognition: Empowering exceptional talent to shine on global stages."
+                            ].map((text, index) => (
+                                <motion.div
+                                    key={index}
+                                    className="flex items-center"
+                                    initial={{ opacity: 0, y: 10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: 0.2 * index, duration: 0.5 }}
+                                >
+                                    <Sun className="w-6 h-6 text-yellow-500 mr-3" />
+                                    <span className="text-gray-300">{text}</span>
+                                </motion.div>
+                            ))}
                         </div>
-                    </div>
-                    <div className="card border transprent p-8 rounded-lg shadow-lg mt-20">
-                        <center className="text-2xl font-semibold mb-6 text-white">Registration Details</center>
-                        <form className="space-y-4">
-                            <input type="text" placeholder="Child's Name" className="w-full p-3 border rounded text-gray-400 bg-transparent" />
-                            <input type="email" placeholder="Roll Number" className="w-full p-3 border rounded text-gray-400 bg-transparent" />
-                            <select className="w-full p-3 border rounded text-gray-600 bg-transparent">
-                                <option className="w-full p-3 border rounded text-gray-600 bg-transparent">Select Program</option>
-                                <option className="w-full p-3 border rounded text-gray-600 bg-transparent">Shadow Puppetry</option>
-                                <option className="w-full p-3 border rounded text-gray-600 bg-transparent">Pottery Making</option>
-                                <option className="w-full p-3 border rounded text-gray-600 bg-transparent">Yoga Awareness & Wellness</option>
-                                <option className="w-full p-3 border rounded text-gray-600 bg-transparent">Crochet Workshop</option>
-                                <option className="w-full p-3 border rounded text-gray-600 bg-transparent">Nursery Visit & Dyeing</option>
-                                <option className="w-full p-3 border rounded text-gray-600 bg-transparent">Culinary Workshop</option>
-                                <option className="w-full p-3 border rounded text-gray-600 bg-transparent">Toymaking Workshop</option>
-                                <option className="w-full p-3 border rounded text-gray-600 bg-transparent">Educational Trip</option>
+                    </motion.div>
 
+                    {/* Right Side - Registration Form */}
+                    <motion.div
+                        initial={{ opacity: 0, x: 50 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.6, ease: "easeOut" }}
+                        className="border border-gray-700 p-8 rounded-lg shadow-lg bg-gray-900"
+                    >
+                        <h3 className="text-2xl font-semibold text-center text-white mb-6">
+                            Registration Details
+                        </h3>
+                        <form className="space-y-4">
+                            <input
+                                type="text"
+                                placeholder="Child's Name"
+                                className="w-full p-3 border rounded bg-gray-800 text-gray-300 placeholder-gray-400 focus:ring-2 focus:ring-yellow-500"
+                            />
+                            <input
+                                type="text"
+                                placeholder="Roll Number"
+                                className="w-full p-3 border rounded bg-gray-800 text-gray-300 placeholder-gray-400 focus:ring-2 focus:ring-yellow-500"
+                            />
+                            <select className="w-full p-3 border rounded bg-gray-800 text-gray-300 focus:ring-2 focus:ring-yellow-500">
+                                <option>Select Program</option>
+                                <option>Shadow Puppetry</option>
+                                <option>Pottery Making</option>
+                                <option>Yoga Awareness & Wellness</option>
+                                <option>Crochet Workshop</option>
+                                <option>Nursery Visit & Dyeing</option>
+                                <option>Culinary Workshop</option>
+                                <option>Toymaking Workshop</option>
+                                <option>Educational Trip</option>
                             </select>
-                            <button className="w-full bg-yellow-500 text-black py-3 rounded font-semibold hover:bg-yellow-400">
+                            <motion.button
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="w-full bg-yellow-500 text-black py-3 rounded font-semibold hover:bg-yellow-400 transition duration-300"
+                            >
                                 Submit Registration
-                            </button>
+                            </motion.button>
                         </form>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
 export default Program;

@@ -1,39 +1,39 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 function Blog() {
-  const scrollContainerRef = useRef(null);
+  const scrollContainerRef = useRef<HTMLDivElement | null>(null);
+  const [isScrolling, setIsScrolling] = useState(true);
 
   useEffect(() => {
     const container = scrollContainerRef.current;
-    let interval = setInterval(scroll, 3000);
+    let interval: NodeJS.Timeout;
 
-    function scroll() {
-      if (container) {
-        container.scrollBy({ left: 300, behavior: "smooth" });
-        if (
-          container.scrollLeft + container.clientWidth >=
-          container.scrollWidth
-        ) {
-          container.scrollTo({ left: 0, behavior: "smooth" });
+    function startScroll() {
+      interval = setInterval(() => {
+        if (container) {
+          container.scrollBy({ left: 275, behavior: "smooth" });
+          if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
+            container.scrollTo({ left: 0, behavior: "smooth" });
+          }
         }
-      }
+      }, 3000);
+      setIsScrolling(true);
     }
 
-    const stopScroll = () => clearInterval(interval);
-    const startScroll = () => (interval = setInterval(scroll, 3000));
+    function stopScroll() {
+      clearInterval(interval);
+      setIsScrolling(false);
+    }
 
-    container?.addEventListener("mouseenter", stopScroll);
-    container?.addEventListener("mouseleave", startScroll);
-
-    // Handle window resize
-    const handleResize = () => {
-      container?.scrollTo({ left: 0, behavior: "smooth" });
-    };
-    window.addEventListener("resize", handleResize);
+    if (container) {
+      startScroll();
+      container.addEventListener("mouseenter", stopScroll);
+      container.addEventListener("mouseleave", startScroll);
+    }
 
     return () => {
       clearInterval(interval);
-      window.removeEventListener("resize", handleResize);
       container?.removeEventListener("mouseenter", stopScroll);
       container?.removeEventListener("mouseleave", startScroll);
     };
@@ -58,57 +58,86 @@ function Blog() {
       image:
         "https://images.unsplash.com/photo-1503785640985-f62e3aeee448?auto=format&fit=crop&q=80",
     },
+    {
+      title: "10 Essential Skills Kids Learn at Camp",
+      date: "March 15, 2024",
+      image:
+        "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80",
+    },
+    {
+      title: "The Benefits of Outdoor Education",
+      date: "March 10, 2024",
+      image:
+        "https://images.unsplash.com/photo-1503785640985-f62e3aeee448?auto=format&fit=crop&q=80",
+    },
+    {
+      title: "Preparing Your Child for Summer Camp",
+      date: "March 5, 2024",
+      image:
+        "https://images.unsplash.com/photo-1503785640985-f62e3aeee448?auto=format&fit=crop&q=80",
+    },
   ];
 
+  const scrollLeft = () => {
+    scrollContainerRef.current?.scrollBy({ left: -275, behavior: "smooth" });
+  };
+
+  const scrollRight = () => {
+    scrollContainerRef.current?.scrollBy({ left: 270, behavior: "smooth" });
+  };
+
   return (
-    <section className="animate-on-scroll py-20 bg-black">
+    <section className="animate-on-scroll py-5 bg-transprent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-center mb-12 text-white">
           Latest from Our Blog
         </h2>
+
+        {/* Scrollable Container with Buttons */}
         <div className="relative flex items-center">
-          <div
-            ref={scrollContainerRef}
-            className="flex overflow-x-auto gap-6 pb-6 hide-scrollbar scroll-smooth"
-          >
+          {/* Left Scroll Button */}
+          <button className="absolute left-0 z-10 p-2 rounded-full bg-gray-800 text-white hover:bg-gray-700 transition shadow-md" onClick={scrollLeft}>
+            <ChevronLeft size={24} />
+          </button>
+
+          {/* Scrollable Blog List */}
+          <div ref={scrollContainerRef} className="flex overflow-x-auto gap-6 pb-6 hide-scrollbar scroll-smooth mx-10">
             {blogs.map((blog, index) => (
-              <div
-                key={index}
-                className="card w-96 flex-shrink-0 rounded-lg shadow-lg overflow-hidden flex bg-gray-950"
-              >
-                <div className="w-1/2 p-6 flex flex-col justify-center">
+              <div key={index} className="card w-80 flex-shrink-0 rounded-lg shadow-lg overflow-hidden flex flex-col bg-gray-950">
+                <div className="relative w-full h-48">
+                  <img
+                    src={blog.image}
+                    alt={blog.title}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-6 flex flex-col justify-center">
                   <h4 className="text-xl font-semibold mb-2 text-white">
                     {blog.title}
                   </h4>
                   <div className="text-sm text-gray-500 mb-2">{blog.date}</div>
-                  <a
-                    href="#"
-                    className="text-blue-400 hover:underline text-sm"
-                  >
-                    Read More →
-                  </a>
                 </div>
-                <img
-                  src={blog.image}
-                  alt={blog.title}
-                  className="w-1/2 h-48 object-cover"
-                />
               </div>
             ))}
           </div>
+
+          {/* Right Scroll Button */}
+          <button className="absolute right-0 z-10 p-2 rounded-full bg-gray-800 text-white hover:bg-gray-700 transition shadow-md" onClick={scrollRight}>
+            <ChevronRight size={24} />
+          </button>
+        </div>
+
+        {/* Auto-Scroll Indicator */}
+        <div className="flex justify-center mt-4">
+          <div
+            className={`w-16 h-1 rounded-full transition-all ${isScrolling ? "bg-blue-500" : "bg-gray-500"}`}>
+          </div>
         </div>
       </div>
-      {/* Hidden scrollbar CSS */}
       <style>
-        {`
-          .hide-scrollbar {
-            scrollbar-width: none;
-            -ms-overflow-style: none;
-          }
-          .hide-scrollbar::-webkit-scrollbar {
-            display: none;
-          }
-        `}
+        {`.hide-scrollbar {scrollbar-width: none; -ms-overflow-style: none;}
+          .hide-scrollbar::-webkit-scrollbar {display: none;}`}
       </style>
     </section>
   );
